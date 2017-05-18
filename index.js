@@ -1,4 +1,5 @@
-var Client = require('ssh2').Client
+var Client = require('ssh2').Client;
+var Promise = require('bluebird');
 
 var statToAttrs = function (stats) {
   var attrs = {}
